@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Oswald:wght@300;400&family=Staatliches&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+}
+a{
+  font-family: 'Nunito', sans-serif;
+}
+p{
+  font-family: 'Oswald', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    color: lightcoral;
+}

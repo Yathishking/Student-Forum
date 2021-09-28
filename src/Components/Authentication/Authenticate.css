@@ -1,0 +1,17 @@
+.app-signin-page{
+    background-color: #1b1b1b;
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+}
+.app-brand-container{
+    padding-top: 100px;
+    padding-left: 200px;
+}
+.signup-form{
+    flex-grow: 0.8;
+}
+.form-group{
+    padding: 0 auto;
+    width: 50%;
+}

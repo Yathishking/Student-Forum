@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app-forum-page{
+    background-color: #1b1b1b;
+    color: aliceblue;
+    padding: 10px;
+    display: flex;
+}
+.app-forum-main-container{
+    flex-grow: 0.8;
+}
+.app-discussion-list{
+    padding: 20px;
+    height: 100vh;
+}
+.app-forum-sidebar div.list-group a.list-group-item{
+    color: dodgerblue;
+    background-color: #1b1b1b;
+}
+.app-forum-sidebar div.list-group a.list-group-item:hover{
+    color: slateblue;
+}
+.app-discussion-item{
+    margin: 10px;
+    color: lightsalmon;
+    border-radius: 2px;
+    background-color: #212121;
+    padding: 0 20px;
+    display: flex;
+    box-shadow: 0 0 3px aliceblue;
+}
+.discussion-header{
+    flex-grow: 1;
+}
+.discussion-details{
+    display: flex;
+}
+.discussion-details p{
+    font-size: 12px;
+    padding: 0 4px;
+}
+.app-discussion-thread-creation-view{
+    padding: 20px;
+}
+/* Discussion-detail view */
+.app-discussion-detail-view-container{
+    padding: 5px 20px;
+}
+.app-dd-title{
+    padding: 10px;
+    color: dodgerblue;
+}
+.discussion-detail-body{
+    padding: 20px;
+}
+.app-dd-author{
+    color: lightsalmon;
+    padding: 10px;
+}
+
+/* comment Section */
+.discussion-comment-section{
+    padding: 20px;
+}
+.discussion-comment-section form textarea{
+    padding: 10px;
+}
+.image-preview img{
+    margin: 10px;
+    border: 1px solid lightblue;
+    border-radius: 2px;
+}
+.discussion-detail-body code{
+    background-color: #1b1b1b;
+    color: #1b1b1b;
+}
+/* Profile */
+.app-user-profile-main-container{
+    height: 90vh;
+    padding: 20px;
+}

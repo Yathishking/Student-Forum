@@ -1,0 +1,161 @@
+/* Global rules */
+*{
+    padding: 0;
+    margin: 0;
+    font-family:cursive;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+/* Navigation Header */
+nav{
+    display: flex;
+    background-color: #212121;
+}
+.brand-name{
+    flex-grow: 1;
+    color: dodgerblue;
+    padding: 15px 20px 10px 20px;
+    text-decoration: none;
+}
+.brand-name h4{
+    font-size: 26px;
+}
+.app-navbar{
+   padding: 0 10px;
+}
+.app-navbar ul {
+    list-style-type: none;
+    padding-top: 15px;
+}
+.app-navbar ul li{
+    display: inline;
+    padding: 5px;
+    margin: 10px;
+}
+.app-navbar ul.app-nav-links li.app-nav-item a.app-nav-link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+    color:azure;
+    padding: 23px 0;
+}
+
+.app-navbar ul.app-nav-links li.app-nav-item a.app-nav-link:hover{
+    color: slateblue;
+    border-bottom: 2px solid salmon;
+}
+/* Footer */
+footer{
+    background-color: #1b1b1b;
+    color: aliceblue;
+    border-top: 2px solid grey;
+}
+.app-footer-links{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+.app-copyright-declaration{
+    padding: 10px;
+    text-align: center;
+}
+.app-socialMedia-links{
+    flex-grow: 1;
+}
+.app-socialMedia-links ul, .app-faqhelp ul{
+    list-style-type: none;
+}
+.app-faqhelp{
+    flex-grow: 1;
+}
+/* HomePage */
+.app-main-container{
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b1b;
+    color: aliceblue;
+}
+.app-main-header{
+    height: 89vh;
+    background-image: url('../../assets/images/headerBG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: dodgerblue;
+    position: relative;
+    display: flex;
+    padding: 60px 100px 10px 200px;
+}
+.app-header-welcome-text{
+    color: dodgerblue;
+    position: relative;
+    text-align: center;
+    top: 40px;
+    padding-left: 230px;
+}
+.app-header-welcome-text p{
+    color: sandybrown;
+    margin: 40px 10px;
+}
+.app-brand-logo-container{
+    height: 200px;
+    width: 200px;
+    background-color: dodgerblue;
+    margin: 20px;
+    transform: rotate(40deg, 30deg);
+    border-radius: 4px;
+    padding: 2px;
+}
+#app-brand-logo{
+    border: 3px solid snow;
+    border-top-left-radius:  100%;
+    border-bottom-right-radius: 80%;
+    clear: left;
+    height: 152px;
+    text-align: center;
+    text-shadow: 5px 2px 4px lightblue;
+    background-color: aliceblue;
+    margin: 2px;
+}
+.leaf-blade{
+    content: '';
+    border: 1px solid brown;
+    border-radius: 10%;
+    position: absolute;
+    width: 150px;
+    transform: translateY(110px)translateX(-24px)rotate(-40deg);   
+}
+#app-brand-logo h1{
+    top: 40px;
+    text-shadow: 4px 2px 4px slateblue;
+    position: relative;
+    font-size: 44px;
+}
+.app-brand-logo-container p{
+    transform: rotateY(30deg);
+    color:  whitesmoke;
+    font-family: monospace;
+    padding-top: 2px;
+    font-size: 26px;
+}
+.app-main-features{
+    padding: 10px;
+}
+.app-features-grid{
+    padding: 20px 50px;
+    display: flex;
+}
+.app-features-heading{
+    padding: 5px 50px;
+}
+.app-main-sponsor{
+    width: 100%;
+}
+.carousel-text{
+    text-align: center;
+    padding: 20px 10px;
+}
